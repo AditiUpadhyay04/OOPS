@@ -13,6 +13,8 @@ class Human1 {
         this.name = name;
         this.married = married;
        Human1.population += 1;
-        System.out.println("age :" +age   "GENDER :" +gender   "NAME :" +name   "MARRIED :" +married );
+        System.out.println("age :" +age +  "GENDER :" +gender +  "NAME :" +name +  "MARRIED :" +married );
+        System.out.println("age :" +age  + "GENDER :" +gender  + "NAME :" +name   +"MARRIED :" +married );
+        System.out.println("age :" +age   +"GENDER :" +gender +  "NAME :" +name   +"MARRIED :" +married );
     }
 }
