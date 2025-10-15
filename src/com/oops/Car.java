@@ -68,6 +68,6 @@ public class Car {
         c1.displayDetail();
         System.out.println("--------------------------");
         c2.displayDetail();
-o
+
     }
 }
