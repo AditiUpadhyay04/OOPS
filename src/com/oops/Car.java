@@ -24,8 +24,6 @@ public class Car {
         this.engine = engine;
     }
 
-
-
     public int getNumberOfSeats() {
         return NumberOfSeats;
     }
