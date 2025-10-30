@@ -1,7 +1,7 @@
 package com.oops;
 
 public class InnerClass {
-   static class Test{
+    class Test{
         String name;
 
         public Test(String name){
@@ -10,8 +10,9 @@ public class InnerClass {
     }
 
     public static void main(String[] args) {
-        Test T1 = new Test("Aditi");
-        Test T2 = new Test("Anubhav");
+       InnerClass obj = new InnerClass();
+        InnerClass.Test T1 =obj.new Test("Aditi");
+        InnerClass.Test T2 =obj.new Test("Anubhav");
 
 
         System.out.println(T1.name);
