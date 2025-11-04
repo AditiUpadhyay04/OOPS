@@ -1,8 +1,12 @@
 package Encapsulation;
 
 public class Demo1 {
-   private int num;
+  protected int num;
     String name;
+
+    public Demo1(){
+        this.num = 123;
+    }
 
     public Demo1(int num, String name){
         this.num = num;
@@ -16,7 +20,8 @@ public class Demo1 {
         return this.num;
 
     }
-    void display(){
+
+   void display(){
         System.out.println(this.num);
         System.out.println(this.name);
     }
