@@ -20,7 +20,6 @@ class BankAccount1 {
             return balance;
         }
     }
-
     public class DataHiding {
         public static void main(String[] args) {
             BankAccount1 acc = new BankAccount1();
