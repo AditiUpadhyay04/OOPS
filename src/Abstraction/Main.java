@@ -7,12 +7,14 @@ public class Main {
         s1.marriage();
         System.out.println(s1.age);
         System.out.println(s1.name);
+        Parent.greet();
 
         Daughter d1 = new Daughter(10, "Tanya");
         d1.career();
         d1.marriage();
         System.out.println(d1.age);
         System.out.println(d1.name);
+        Parent.greet();
 
         Parent p1 = new Daughter(13,"Tanu");
         System.out.println(p1.age);
